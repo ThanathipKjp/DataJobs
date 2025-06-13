@@ -45,7 +45,7 @@ Job-Market-Analysis/
 - 💼 **All open positions**:
   - 5070 positions
 
-- 💸 *Top 3 industries with the most job openings**:  
+- 💸 **Top 3 industries with the most job openings**:  
   - Recuitment
   - travel Tech
   - Banking 
