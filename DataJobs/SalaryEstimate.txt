@@ -1,0 +1,83 @@
+Since the salary data is only 700 out of 5000, which is 14%.
+After I grouped by position, I substituted the salary values ​​within the group from the existing salary data first,
+before substituting the remaining blank values ​​as the average of all because the data is not distributed.
+
+WHERE overall_positions = 'Business Analyst'
+	Use average value because the data is not distributed ,So  Start_Salary = 44529.4117647059 and  Max_Salary  = 63823.5294117647
+WHERE overall_positions = 'Business Development'
+	Use average value because the data is not distributed ,So  Start_Salary = 55056.8421052632 and  Max_Salary  = 80184.2105263158
+WHERE overall_positions = 'Sales Manager'
+	Use the median value because the data is skewed to the left, so use the middle value.So  Start_Salary = 67000 and  Max_Salary  = 90000 
+WHERE overall_positions = 'Marketing Manager'
+	Use average value because the data is not distributed ,So Start_Salary = 63189.4736842105 and  Max_Salary  = 84073.6842105263
+WHERE overall_positions = 'Data Analyst'
+	Use average value because the data is not distributed ,So  Start_Salary = 29111.1111111111 and  Max_Salary  = 38444.4444444444
+WHERE overall_positions = 'Software Engineer'
+	Use the median value because the data is heavily skewed to the left, so use the middle value.  Start_Salary =  42500  and  Max_Salary  = 63750 
+WHERE overall_positions = 'Project Manager'
+	Use average value because the data is not distributed ,So  Start_Salary = 46503.0 and  Max_Salary  = 70500.0
+WHERE overall_positions = 'Digital Marketing'
+	Use average value because the data is not distributed ,So  Start_Salary = 39600.0 and  Max_Salary  = 54466.6666666667
+WHERE overall_positions = 'System Analyst'
+	Use average value because the data is not distributed ,So  Start_Salary = 37900.0 and  Max_Salary  = 52499.9
+WHERE overall_positions = 'Data Engineer'
+	Since there is only one salary data in the group, most of the job details are similar and have values ​​close to the external data, so it is inferred that  
+	Start_Salary =  35000 and  Max_Salary  = 50000
+WHERE overall_positions = 'Product Manager'
+	Use average value because the data is not distributed ,So  Start_Salary = 63333.3333333333 and  Max_Salary  = 83333.3333333333
+WHERE overall_positions = 'Sales Executive'
+	Use average value because the data is not distributed ,So  Start_Salary = 29697.0 and  Max_Salary  = 41545.4545454545
+WHERE overall_positions = 'Financial Analyst'
+	Use average value because the data is not distributed ,So  Start_Salary = 64125.0 and  Max_Salary  = 71887.5
+WHERE overall_positions = 'Financial Manager'
+	Use average value because the data is not distributed ,So  Start_Salary = 63600.0 and  Max_Salary  = 77000.0
+WHERE overall_positions = 'Accounting Manager'
+	Use the median value because the data is heavily skewed to the left, so use the middle value.So  Start_Salary =  70000 and  Max_Salary  = 90000 
+WHERE overall_positions = 'Account Manager'
+	Use the median value because the data is heavily skewed to the left, so use the middle value.So Start_Salary =  42500 and  Max_Salary  = 66250 
+WHERE overall_positions = 'Machine Learning Engineer'
+	Use the median value because the data is heavily skewed to the left, so use the middle value.So  Start_Salary =  45000 and  Max_Salary  = 65000 
+WHERE overall_positions = 'Trade Marketing Executive'
+	Since there is only one salary data in the group, most of the job details are similar and have values ​​close to the external data, so it is inferred that  
+	 Start_Salary =  40000 and  Max_Salary  = 50000
+WHERE overall_positions = 'Trade Marketing Manager'
+	Since there are only 2 salary data in the group and most of the job details are similar, the average value is close to the outside data, so the average value is used. Therefore, 	Start_Salary =  85000 and  Max_Salary  = 117500
+WHERE overall_positions = 'Sales Engineer'
+	Since there are only 2 salary data in the group and the data values ​​are very different, we use the data that is closest to the external data, so  
+	Start_Salary =  35000 and  Max_Salary  = 45000.
+WHERE overall_positions = 'Product Owner'
+	Use average value because the data is not distributed ,So  Start_Salary = 61000.0 and  Max_Salary  = 84000.0
+WHERE overall_positions = 'Key Account Manager'
+	Use average value because the data is not distributed ,So  Start_Salary = 53333.3333333333 and  Max_Salary  = 65833.3333333333
+WHERE overall_positions = 'IT Support'
+	Use average value because the data is not distributed ,So  Start_Salary = 29320.0 and  Max_Salary  = 36800.0
+WHERE overall_positions = 'IT Manager'
+	Use the median value because the data is heavily skewed to the left, so use the middle value.So  Start_Salary =  60000 and  Max_Salary  = 75000 
+WHERE overall_positions =  'HR Manager'
+	Use average value because the data is not distributed ,So  Start_Salary = 66250.0 and  Max_Salary  = 87250.0
+WHERE overall_positions = 'Trade Marketing Executive'
+	Since there is only one salary data in the group, most of the job details are similar and have values ​​close to the external data, so it is inferred that  
+	Start_Salary =  22000 and  Max_Salary  = 27000
+WHERE overall_positions = 'SAP Consultant'
+	Use the median value because the data is heavily skewed to the left, so use the middle value.So Start_Salary =  90000 and  Max_Salary  = 100000 
+WHERE overall_positions =  'Sales Representative'
+	Use average value because the data is not distributed ,So  Start_Salary = 26000 and  Max_Salary  = 39000
+WHERE overall_positions = 'Business Management'
+	Since there are only 2 salary data in the group and the data values ​​are very different, we use the data that is closest to the external data, so
+	Start_Salary = 70000 and  Max_Salary  = 89999
+WHERE overall_positions =  'Software Developer'
+	Use average value because the data is not distributed ,So  Start_Salary = 35000 and  Max_Salary  = 50000
+WHERE overall_positions = 'Brand Manager'
+	Since there is only one salary data in the group, most of the job details are similar and have values ​​close to the external data, so it is inferred that  
+	Start_Salary =  65000 and  Max_Salary  = 75000
+WHERE overall_positions =  'Sales Coordinator'
+	Use average value because the data is not distributed ,So  Start_Salary = 23250.0 and  Max_Salary  = 29250.0
+WHERE overall_positions =  'System Engineer'
+	Use average value because the data is not distributed ,So  Start_Salary = 60000 and  Max_Salary  = 80000
+WHERE overall_positions = 'Business Process Management'
+	Since there is only one salary data in the group, most of the job details are similar and have values ​​close to the external data, so it is inferred that  
+	Start_Salary =  40000 and  Max_Salary  = 48000
+WHERE overall_positions = 'Network Engineer'
+	Use the median value because the data is heavily skewed to the left, so use the middle value.So  Start_Salary =  62500 and  Max_Salary  = 76000 
+WHERE overall_positions =  'Account Executive'
+	Use average value because the data is not distributed ,So  Start_Salary = 29250.0 and  Max_Salary  = 36250.0
