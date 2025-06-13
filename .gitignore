@@ -1,0 +1,8 @@
+# Excel / Power BI
+*.pbix.autosave
+~$*.xlsx
+Thumbs.db
+
+
+# Mac / Windows ขยะ
+.DS_Store
